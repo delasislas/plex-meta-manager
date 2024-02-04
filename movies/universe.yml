@@ -1,0 +1,3 @@
+templates:
+  Collection:
+    sort_title: "+4_<<collection_name>>"

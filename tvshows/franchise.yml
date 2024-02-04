@@ -1,0 +1,57 @@
+templates:
+  Collection:
+    optional:
+      - list
+      - show
+    tvdb_list_details: <<list>>
+    tvdb_show: <<show>>
+    sync_mode: sync
+    collection_order: release
+
+#   Name:
+#     template: {name: Collection, tvdb_show: ""}
+
+collections:
+  Air:
+    template: {name: Collection, show: https://thetvdb.com/series/air}
+  "Avatar: The Last Airbender":
+    template: {name: Collection, show: 74852}
+    name_mapping: "Avatar The Last Airbender"
+  Code Lyoko:
+    template: {name: Collection, show: "74280, 265109"}
+  Death Note:
+    template: {name: Collection, show: 79481}
+  Digimon:
+    template: {name: Collection, show: "72241, 277575, 380653, 339733, 202241"}
+  Full Metal Alchemist:
+    template: {name: Collection, show: "75579, 85249"}
+  InuYasha:
+    template: {name: Collection, show: 71361}
+  Kakegurui:
+    template: {name: Collection, show: "327572, 339656"}
+  Kakegurui Twin:
+    template: {name: Collection, show: "412354, 393685"}
+  Komi Can't Communicate:
+    template: {name: Collection, show: "402412, 409718"}
+  Pokémon:
+    template: {name: Collection, show: 76703}
+  Princess Jellyfish:
+    template: {name: Collection, show: "197731, 339989"}
+  Rascal Does Not Dream:
+    template: {name: Collection, show: 345596}
+  Slayers:
+    template: {name: Collection, show: 77681}
+  The Way of the Househusband:
+    template: {name: Collection, show: "386049, 408125, 391005"}
+  
+  Planet:
+    template: {name: Collection, show: "359365, 355229, 418505, 359251, 180831, 359250, 74372, 330942, 251418, 417395, 79257, 318408"}
+  Blue Planet:
+    template: {name: Collection, show: "74372, 330942"}
+  Frozen Planet:
+    template: {name: Collection, show: "251418, 417395"}
+  Planet Earth:
+    template: {name: Collection, show: "79257, 318408"}
+
+  Futurama:
+    template: {name: Collection, show: 73871}

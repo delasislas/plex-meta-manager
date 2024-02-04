@@ -1,0 +1,21 @@
+templates:
+  Collection:
+    sort_title: "+9_<<collection_name>>"
+
+collections:
+  Jeff Dunham Stand Up:
+    template: {name: Collection}
+    imdb_list: https://www.imdb.com/list/ls086022668/
+    summary: Collection of Jeff Dunham's Stand Up Comedy Specials
+  Kevin Hart Stand Up:
+    template: {name: Collection}
+    imdb_list: https://www.imdb.com/list/ls049792208/
+    summary: Collection of Kevin Hart's Stand Up Comedy Specials
+  George Carlin Stand Up:
+    template: {name: Collection}
+    imdb_list: https://www.imdb.com/list/ls070221411/
+    summary: Collection of George Carlin's Stand Up Comedy HBO Specials
+  George Lopez Stand Up:
+    template: {name: Collection}
+    imdb_list: https://www.imdb.com/list/ls086584751/
+    summary: Collection of George Lopez's Stand Up Comedy Specials

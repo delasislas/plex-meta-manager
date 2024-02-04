@@ -1,0 +1,11 @@
+collections:
+  Movies with Commentary:
+    sort_title: "+2_<<collection_name>>"
+    plex_all: true
+    filters:
+      audio_track_title: Commentary
+  Trailers:
+    sort_title: "+2_<<collection_name>>"
+    plex_all: true
+    filters:
+      edition: "trailer"
